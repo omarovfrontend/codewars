@@ -11,5 +11,6 @@ I consistently refactor and optimize my code, sometimes for efficiency, sometime
 ## Activity, languages and skills used here (at the moment):
 
 ![GitHub top language](https://img.shields.io/github/languages/top/omarovfrontend/codewars)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/omarovfrontend/codewars)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/omarovfrontend/codewars)
 ![GitHub last commit](https://img.shields.io/github/last-commit/omarovfrontend/codewars)
