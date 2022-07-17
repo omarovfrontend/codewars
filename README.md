@@ -10,6 +10,6 @@ I consistently refactor and optimize my code, sometimes for efficiency, sometime
 
 ## Activity, languages and skills used here (at the moment):
 
-![GitHub top language](https://img.shields.io/github/Languages/top/omarovfrontend/codewars)
-![GitHub commit activity](https://img.shields.io/github/Commit-activity/m/omarovfrontend/codewars)
-![GitHub last commit](https://img.shields.io/github/Last-commit/omarovfrontend/codewars)
+![GitHub top language](https://img.shields.io/github/languages/top/omarovfrontend/codewars)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/omarovfrontend/codewars)
+![GitHub last commit](https://img.shields.io/github/last-commit/omarovfrontend/codewars)
