@@ -13,3 +13,8 @@ function even_or_odd(number) {
     return 'Odd';
   }
 }
+
+// Part #2
+function even_or_odd(number) {
+  return (number % 2 === 0) ? 'Even' : 'Odd';
+}
