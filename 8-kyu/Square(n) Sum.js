@@ -20,3 +20,10 @@ function squareSum(numbers) {
   }
   return res;
 }
+
+// Part #2
+function squareSum(numbers) {
+  return (numbers.length === 0) ? 0 : numbers.map(el => {
+    return el ** 2;
+  }).reduce((a, b) => a + b, 0);
+}
