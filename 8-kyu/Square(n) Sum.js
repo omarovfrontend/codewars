@@ -27,3 +27,8 @@ function squareSum(numbers) {
     return el ** 2;
   }).reduce((a, b) => a + b, 0);
 }
+
+// Part #3
+function squareSum(numbers) {
+  return numbers.map(el => el * el).reduce((a, b) => a + b, 0);
+}
