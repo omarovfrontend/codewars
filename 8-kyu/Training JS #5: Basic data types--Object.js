@@ -26,3 +26,6 @@ In the end, click "Submit" to submit your code pass this kata.
 function animal(obj){
   return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
 }
+
+// Part #2
+const animal = (obj) => `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
