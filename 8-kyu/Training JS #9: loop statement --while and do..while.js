@@ -78,3 +78,12 @@ function padIt(str,n){
   }
   return str;
 }
+
+// Part #3
+function padIt(str,n){
+  while(n > 0) {
+    (n % 2 === 0) ? str = str + '*' : str = '*' + str;
+    n -= 1;
+  }
+  return str;
+}
