@@ -53,9 +53,7 @@ function whatNumberIsIt(n) {
   else if (n === 1.7976931348623157e+308) return 'Input number is Number.MAX_VALUE';
   else if (n === 5e-324) return 'Input number is Number.MIN_VALUE';
   else if (isNaN(n)) return 'Input number is Number.NaN';
-  else {
-    return `Input number is ${n}`;
-  }
+  else return `Input number is ${n}`;
 }
 
 // Part #2
