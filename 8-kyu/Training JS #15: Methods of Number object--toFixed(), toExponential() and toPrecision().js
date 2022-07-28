@@ -89,7 +89,6 @@ function howManySmaller(arr, n) {
 }
 
 // Part #2
-
 function howManySmaller(arr, n) {
   return arr.filter(el => el.toFixed(2) < n).length;
 }
