@@ -111,3 +111,15 @@ function cutIt(arr) {
   }
   return arr.map(el => el.slice(0, smallestWord));
 }
+
+// Part #2
+function cutIt(arr) {
+  let smallestWord = arr[0].length;
+
+  for (let word of arr) {
+    if (word.length < smallestWord) {
+      smallestWord = word.length;
+    }
+  }
+  return arr.map(el => el.slice(0, smallestWord));
+}
