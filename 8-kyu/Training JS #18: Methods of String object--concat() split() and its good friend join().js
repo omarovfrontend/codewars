@@ -89,3 +89,8 @@ function splitAndMerge(str, sp) {
   }
   return arr.join(' ');
 }
+
+// Part #2
+function splitAndMerge(str, sp) {
+  return str.split(' ').map(el => el.split('').join(sp)).join(' ');
+}
