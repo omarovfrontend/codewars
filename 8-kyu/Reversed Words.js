@@ -9,6 +9,17 @@ Example(Input --> Output):
 #STRINGS #ALGORITHMS
 */
 
-function reverseWords(str){
+function reverseWords(str) {
   return str.split(' ').reverse().join(' ');
+}
+
+// Part #2
+function reverseWords(str) {
+  let arr = str.split(' ');
+  let arrReverse = [];
+  
+  for (let i = arr.length - 1; i >= 0; i -= 1) {
+    arrReverse.push(arr[i]);
+  }
+  return arrReverse.join(' ');
 }
