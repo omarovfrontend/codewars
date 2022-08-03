@@ -12,3 +12,13 @@ Return true if the array contains the value, false if not.
 function check(a, x) {
   return a.includes(x);
 }
+
+// Part #2
+function check(a, x) {
+  let res = false;
+  
+  for(let i = 0; i < a.length; i += 1) {
+    if (a[i] === x) return res = true;
+  }
+  return res;
+}
