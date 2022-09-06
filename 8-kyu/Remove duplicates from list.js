@@ -10,3 +10,8 @@ The order of the sequence has to stay the same.
 function distinct(a) {
   return a.filter((el, i) => a.indexOf(el) === i);
 }
+
+// Part #2
+function distinct(a) {
+  return [...new Set(a)];
+}
