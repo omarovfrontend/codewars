@@ -28,3 +28,8 @@ function shortcut (str) {
   }
   return strArr.join('');
 }
+
+// Part #2
+function shortcut (str) {
+  return str.replace(/[aeiou]/g, '');
+}
