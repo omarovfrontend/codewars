@@ -19,3 +19,8 @@ Good luck!
 const sumSquares = (a) => {  
   return a.map(el => (el ** 2)).reduce((a, b) => a + b);
 }
+
+// Part #2
+function sumSquares(arr) {
+  return arr.reduce((a, b) => a + b ** 2, 0);
+}
