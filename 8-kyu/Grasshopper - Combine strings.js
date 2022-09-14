@@ -14,3 +14,8 @@ returns:
 */
 
 const combineNames = (a, b) => a + ' '.concat(b);
+
+// Part #2
+function combineNames(arr1, arr2) {
+  return `${arr1} ${arr2}`;
+}
