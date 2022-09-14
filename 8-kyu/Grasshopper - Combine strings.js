@@ -19,3 +19,8 @@ const combineNames = (a, b) => a + ' '.concat(b);
 function combineNames(arr1, arr2) {
   return `${arr1} ${arr2}`;
 }
+
+// Part #3
+function combineNames(firstName, lastName) {
+  return firstName + ' ' + lastName;
+}
