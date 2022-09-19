@@ -17,3 +17,19 @@ The test cases contain numbers only by mistake.
 function correct(str) {
   return str.replace(/0/g, 'O').replace(/1/g, 'I').replace(/5/g, 'S');
 }
+
+// Part #2
+function correct(str) {
+  let strArr = str.split('');
+
+  for (let i = 0; i < strArr.length; i += 1) {
+    if (strArr[i] === '0') {
+      strArr[i] = 'O';
+    } else if (strArr[i] === '1') {
+      strArr[i] = 'I';
+    } else if (strArr[i] === '5') {
+      strArr[i] = 'S';
+    }
+  }
+  return strArr.join('');
+}
