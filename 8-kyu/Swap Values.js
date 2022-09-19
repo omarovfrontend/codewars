@@ -12,3 +12,6 @@ function swapValues(args) {
   args[0] = args[1];
   args[1] = temp;
 }
+
+// Part #2
+const swapValues = (args) => args.reverse();
