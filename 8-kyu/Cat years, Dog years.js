@@ -53,7 +53,7 @@ const humanYearsCatYearsDogYears = function(humanYears) {
 }
 
 // Part #2
-const humanYearsCatYearsDogYears = humanYears => {
+function humanYearsCatYearsDogYears(humanYears) {
   let catYears = 0;
   let dogYears = 0;
   
