@@ -23,3 +23,8 @@ function stringy(size) {
   }
   return str;
 }
+
+// Part #2
+function stringy(size) {
+  return ''.padStart(size, '10');
+}
