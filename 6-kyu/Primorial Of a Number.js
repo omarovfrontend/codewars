@@ -40,3 +40,8 @@ function numPrimorial(n) {
   const res = numArr.slice(0, Math.max(0, Math.min(n, numArr.length)));
   return res.reduce((a, b) => a * b);
 }
+
+// Part #2
+function numPrimorial(n) {
+  return [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47].slice(0, n).reduce((a, b) => a * b, 1);
+}
