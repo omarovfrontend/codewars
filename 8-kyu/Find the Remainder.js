@@ -31,3 +31,8 @@ function remainder(n, m) {
   else if (n === 0 || m === 0) return NaN;
   else return 0;
 }
+
+// Part #2
+function remainder(n, m) {
+  return (n > m) ? n % m : m % n;
+}
