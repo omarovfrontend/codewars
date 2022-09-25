@@ -13,7 +13,7 @@ ball2.ballType     //=> "super"
 #FUNDAMENTALS
 */
 
-const Ball = function(ballType) {
+function Ball(ballType) {
   if (ballType === 'super') {
     this.ballType = ballType;
   } else {
@@ -22,7 +22,7 @@ const Ball = function(ballType) {
 }
 
 // Part #2
-class Ball2 {
+class Ball {
   constructor(ballType) {
     this.ballType = ballType ? ballType : 'regular';
   }
