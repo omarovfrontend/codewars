@@ -22,3 +22,8 @@ function sumOfDifferences(arr) {
   }
   return sum;
 }
+
+// Part #2
+function sumOfDifferences(arr) {
+  return arr <= 1 ? 0 : Math.max(...arr) - Math.min(...arr);
+}
