@@ -20,3 +20,10 @@ const Ball = function(ballType) {
     this.ballType = 'regular';
   }
 }
+
+// Part #2
+class Ball2 {
+  constructor(ballType) {
+    this.ballType = ballType ? ballType : 'regular';
+  }
+}
