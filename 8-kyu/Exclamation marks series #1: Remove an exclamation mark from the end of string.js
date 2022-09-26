@@ -19,3 +19,6 @@ function remove (string) {
   const res = strArr[strArr.length - 1] === '!' ? strArr.slice(0, -1) : strArr;
   return res.join('');
 }
+
+// Part #2
+const remove = (s) => s.replace(/!$/, '');
