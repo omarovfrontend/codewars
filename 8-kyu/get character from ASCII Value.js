@@ -16,3 +16,6 @@ For ASCII table, you can refer to http://www.asciitable.com/
 function getChar(c) {
   return String.fromCharCode(c);
 }
+
+// Part #2
+const getChar = (c) => String.fromCharCode(c);
