@@ -17,3 +17,6 @@ Happy coding!
 function reverse(s) {
   return s.split(' ').reverse().join(' ');
 }
+
+// Part #2
+const reverse = (s) => s.split(' ').reverse().join(' ');
