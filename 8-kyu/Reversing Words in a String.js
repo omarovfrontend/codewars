@@ -20,3 +20,14 @@ function reverse(s) {
 
 // Part #2
 const reverse = (s) => s.split(' ').reverse().join(' ');
+
+// Part #3
+function reverse(s) {
+  const strArr = s.split(' ');
+  const res = [];
+  
+  for (let i = strArr.length - 1; i >= 0; i -= 1) {
+    res.push(strArr[i]);
+  }
+  return res.join(' ');
+}
