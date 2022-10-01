@@ -39,3 +39,15 @@ function stairsIn20(s) {
   const res = s0 + s1 + s2 + s3 + s4 + s5 + s6;
   return res * 20;
 }
+
+// Part #2
+function stairsIn20(s) {
+  let sum = 0;
+  
+  for (let i = 0; i < s.length; i += 1) {
+    for (let j = 0; j < s[i].length; j += 1) {
+      sum += s[i][j];
+    }
+  }
+  return sum * 20;
+}
