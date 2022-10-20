@@ -19,3 +19,15 @@ const Person = function(){
   }
   return person;
 }
+
+// OR => Part #2
+// const Person = function(){
+//   const person = {
+//     _name: "Leroy",
+//     _friends: [],
+//     fillFriends(f) {
+//       this._friends.push(...f);
+//     }
+//   }
+//   return person;
+// }
