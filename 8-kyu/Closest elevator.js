@@ -36,3 +36,8 @@ function elevator(left, right, call) {
     return 'right';
   }
 }
+
+// Part #2
+function elevator(left, right, call){
+  return (left - call) ** 2 < (right - call) ** 2 ? 'left' : 'right';
+}
