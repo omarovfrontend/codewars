@@ -28,3 +28,8 @@ function contamination(text, char) {
     return str;
   }
 }
+
+// #Part 2
+function contamination(text, char) {
+  return char.repeat(text.length);
+}
